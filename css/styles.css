@@ -10050,9 +10050,13 @@ h3 {
   line-height: 1.5rem;
   font-size: 1.25rem;
   font-weight: 600;
-  padding-top: 2rem;
-  padding-left: 7.5rem;
-  padding-right: 7.5rem;
+}
+@media (min-width: 992px) {
+  .main-paragraph {
+    padding-top: 2rem;
+    padding-left: 7.5rem;
+    padding-right: 7.5rem;
+  }
 }
 
 .secondary-paragraph {
